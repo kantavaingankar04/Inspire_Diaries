@@ -14,7 +14,7 @@ export default {
         muted: '#6B5D52', // Muted Brown
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
+        serif: ['Bodoni Moda', 'serif'],
         sans: ['Inter', 'sans-serif'],
       },
     },
