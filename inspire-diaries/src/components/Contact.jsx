@@ -18,7 +18,7 @@ const Contact = () => {
                     className="text-center mb-12"
                 >
                     <h2 className="text-4xl font-serif font-bold text-text mb-4">Get In Touch</h2>
-                    <p className="text-muted">Let's create something beautiful together.</p>
+                    <p className="text-muted">Let&apos;s create something beautiful together.</p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">

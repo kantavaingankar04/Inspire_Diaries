@@ -36,8 +36,8 @@ const About = () => {
                             a professional pursuit of freezing time.
                         </p>
                         <p className="text-muted mb-8 leading-relaxed">
-                            Whether it's the joy of a wedding, the serenity of nature, or the raw emotion of a portrait,
-                            I strive to create images that resonate with the soul. "Every picture tells a story, let us tell yours."
+                            Whether it&apos;s the joy of a wedding, the serenity of nature, or the raw emotion of a portrait,
+                            I strive to create images that resonate with the soul. &quot;Every picture tells a story, let us tell yours.&quot;
                         </p>
                         <div className="flex justify-center md:justify-start gap-4">
                             <div className="text-center">

@@ -32,7 +32,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-xl md:text-2xl text-muted font-light mb-8 italic"
                 >
-                    "Every picture tells a story, let us tell yours."
+                    &quot;Every picture tells a story, let us tell yours.&quot;
                 </motion.p>
 
                 <motion.div
