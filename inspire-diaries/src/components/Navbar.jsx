@@ -13,16 +13,16 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     <div className="flex-shrink-0 flex items-center gap-3">
-                        <img src={logo} alt="Inspire Diaries" className="h-14 w-14 rounded-full" />
-                        <span className="text-3xl font-serif font-bold text-accent tracking-wider">Inspire Diaries</span>
+                        <img src={logo} alt="Inspire Diaries" className="h-16 w-16 rounded-full" />
+                        <span className="text-4xl font-serif font-bold text-accent tracking-wider">Inspire Diaries</span>
                     </div>
 
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
-                            <a href="#home" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                            <a href="#portfolio" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
-                            <a href="#about" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">About</a>
-                            <a href="#contact" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                            <a href="#home" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-base font-medium">Home</a>
+                            <a href="#portfolio" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
+                            <a href="#about" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-base font-medium">About</a>
+                            <a href="#contact" className="text-text hover:text-accent transition-colors duration-300 px-3 py-2 rounded-md text-base font-medium">Contact</a>
                         </div>
                     </div>
 
