@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import VideoCarousel from './VideoCarousel';
 
 // Wedding
 import w1 from '../assets/IDI_Gallery/Wedding/wed1.jpg';
@@ -92,23 +93,8 @@ const Portfolio = () => {
                     <p className="mt-4 text-muted">Relive the emotions through motion.</p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {[v1, v2, v3].map((video, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="group relative overflow-hidden rounded-lg shadow-xl aspect-video cursor-pointer"
-                        >
-                            <video
-                                src={video}
-                                controls
-                                className="w-full h-full object-cover"
-                            />
-                        </motion.div>
-                    ))}
+                <div className="w-full">
+                    <VideoCarousel videos={[v1, v2, v3]} />
                 </div>
             </div>
         </section>

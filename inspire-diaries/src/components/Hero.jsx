@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import heroBg from '../assets/hero-bg.png';
+import logo from '../assets/logo.png';
 
 const Hero = () => {
     return (
@@ -17,14 +18,18 @@ const Hero = () => {
 
             {/* Content */}
             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-                <motion.h1
+                <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-5xl md:text-7xl font-serif font-bold text-text mb-6 tracking-wide"
+                    className="mb-6 flex justify-center"
                 >
-                    Inspire Diaries
-                </motion.h1>
+                    <img
+                        src={logo}
+                        alt="Inspire Diaries Logo"
+                        className="w-72 md:w-96 h-auto"
+                    />
+                </motion.div>
 
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}

@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         serif: ['Bodoni Moda', 'serif'],
         sans: ['Inter', 'sans-serif'],
+        display: ['Arome Display', 'sans-serif'],
       },
     },
   },

@@ -9,8 +9,46 @@
 
   --font-serif: "Bodoni Moda", serif;
   --font-sans: "Inter", sans-serif;
+  --font-display: "Arome Display", sans-serif;
 }
+
+@font-face {
+  font-family: "Arome Display";
+  src: url("./assets/fonts/AromeDisplay.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   @apply bg-primary text-text font-sans antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-display;
+}
+
+@layer utilities {
+  .pause-on-hover:hover .animate-scroll {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
 }

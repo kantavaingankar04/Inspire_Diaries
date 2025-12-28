@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaInstagram, FaBars, FaTimes } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -10,11 +10,11 @@ const Navbar = () => {
 
     return (
         <nav className="fixed w-full z-50 bg-primary/90 backdrop-blur-sm border-b border-accent/20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[98%] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     <div className="flex-shrink-0 flex items-center gap-3">
-                        <img src={logo} alt="Inspire Diaries" className="h-16 w-16 rounded-full" />
-                        <span className="text-4xl font-serif font-bold text-accent tracking-wider">Inspire Diaries</span>
+                        <img src={logo} alt="Inspire Diaries" className="h-20 w-20 rounded-full" />
+                        <span className="text-4xl font-display font-black text-accent tracking-wider">Inspire Diaries</span>
                     </div>
 
                     <div className="hidden md:block">
@@ -26,9 +26,15 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <div className="hidden md:flex items-center gap-4">
+                    <div className="hidden md:flex items-center gap-6">
                         <a href="https://www.instagram.com/inspirediariess_" target="_blank" rel="noopener noreferrer" className="text-xl text-text hover:text-accent transition-colors">
                             <FaInstagram />
+                        </a>
+                        <a href="https://wa.me/917821037873" target="_blank" rel="noopener noreferrer" className="text-xl text-text hover:text-accent transition-colors">
+                            <FaWhatsapp />
+                        </a>
+                        <a href="mailto:contact@inspirediariess.com" className="text-xl text-text hover:text-accent transition-colors">
+                            <FaEnvelope />
                         </a>
                     </div>
 
